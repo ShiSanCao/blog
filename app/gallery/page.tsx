@@ -1,5 +1,5 @@
 import Gallery from "@/components/gallery";
-import cloudinary from "@/lib/cloudinary";
+// import cloudinary from "@/lib/cloudinary";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -9,11 +9,11 @@ export const metadata: Metadata = {
 };
 
 export default async function GalleryPage() {
-  const data = await cloudinary.v2.search
-    .expression(`folder:blog/*`)
-    .sort_by("created_at", "desc")
-    .max_results(400)
-    .execute();
+  // const data = await cloudinary.v2.search
+  //   .expression(`folder:blog/*`)
+  //   .sort_by("created_at", "desc")
+  //   .max_results(400)
+  //   .execute();
 
   return (
     <div className="max-w-7xl mx-auto py-32 px-4">
@@ -26,7 +26,7 @@ export default async function GalleryPage() {
           </p>
         </div>
 
-        <Gallery images={data.resources} />
+        {/* <Gallery images={data.resources} /> */}
       </div>
     </div>
   );
