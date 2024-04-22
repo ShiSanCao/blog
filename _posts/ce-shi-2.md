@@ -16,7 +16,3 @@ NHTSA 公布的信息显示，Cybertruck 的装配过程在未经批准的情况
 截至上周三，所有在产的 Cybertruck 都安装了新的油门踏板组件。已运到交付中心的 Cybertruck 将在维修后交付。截至上周五，Cybertruck 尚未恢复交付。今年早些时候，特斯拉已经召回了一次包括 Cybertruck 在内所有旗下车辆的软件，原因为警告指示灯的字体太小。
 
 ### **02多地实施微短剧新规，上线须经分类审核备案**
-
-import cloudinary from "cloudinary"; cloudinary.v2.config({ cloud\_name: process.env.CLOUDINARY\_CLOUD\_NAME, api\_key: process.env.CLOUDINARY\_API\_KEY, api\_secret: process.env.CLOUDINARY\_API\_SECRET, }); export default cloudinary;
-
-1111
