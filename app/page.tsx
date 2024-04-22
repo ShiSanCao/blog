@@ -41,10 +41,10 @@ export default function Home() {
 
             <RetrieveIP />
           </div>
-          <div className="absolute bottom-4  left-0 right-0">
+          <div className="absolute bottom-4 left-0 right-0">
             <div className="flex gap-6">
               <div className="hidden xl:flex flex-col space-y-6 border-r-2 pr-6 my-auto">
-                <TooltipProvider>
+                {/* <TooltipProvider>
                   <Tooltip>
                     <TooltipTrigger>
                       <a
@@ -59,8 +59,8 @@ export default function Home() {
                       <p>Discord Profile</p>
                     </TooltipContent>
                   </Tooltip>
-                </TooltipProvider>
-                <TooltipProvider>
+                </TooltipProvider> */}
+                {/* <TooltipProvider>
                   <Tooltip>
                     <TooltipTrigger>
                       <a
@@ -75,8 +75,8 @@ export default function Home() {
                       <p>X Profile</p>
                     </TooltipContent>
                   </Tooltip>
-                </TooltipProvider>
-                <TooltipProvider>
+                </TooltipProvider> */}
+                {/* <TooltipProvider>
                   <Tooltip>
                     <TooltipTrigger>
                       <a
@@ -91,7 +91,7 @@ export default function Home() {
                       <p>Livestream Website</p>
                     </TooltipContent>
                   </Tooltip>
-                </TooltipProvider>
+                </TooltipProvider> */}
                 <TooltipProvider>
                   <Tooltip>
                     <TooltipTrigger>
@@ -108,7 +108,7 @@ export default function Home() {
                     </TooltipContent>
                   </Tooltip>
                 </TooltipProvider>
-                <TooltipProvider>
+                {/* <TooltipProvider>
                   <Tooltip>
                     <TooltipTrigger>
                       <a
@@ -123,7 +123,7 @@ export default function Home() {
                       <p>Spotify Profile</p>
                     </TooltipContent>
                   </Tooltip>
-                </TooltipProvider>
+                </TooltipProvider> */}
                 <TooltipProvider>
                   <Tooltip>
                     <TooltipTrigger>
@@ -162,8 +162,8 @@ export default function Home() {
                   Web Developer
                 </p>
                 <h1 className="xl:text-9xl lg:text-8xl md:text-7xl sm:text-6xl text-5xl font-bold leading-none tracking-tight uppercase text-black dark:text-transparent bg-clip-text bg-gradient-to-b dark:from-[#ffffff] from-10% dark:to-muted">
-                  <div>Zacchary</div>
-                  <div>Puckeridge</div>
+                  <div>Zeno</div>
+                  <div>Cao</div>
                 </h1>
               </div>
             </div>
@@ -173,7 +173,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="pt-20" id="about">
+      {/* <div className="pt-20" id="about">
         <div className="space-y-20">
           <p className="font-mono uppercase text-sm font-semibold px-2 py-1 bg-neutral-900 border-2 flex gap-2">
             <DotFilledIcon className="w-4 h-4 animate-pulse my-auto" /> About
@@ -192,17 +192,17 @@ export default function Home() {
             Experiences by night.
           </p>
         </div>
-      </div>
+      </div> */}
 
-      <div className="space-y-20">
+      {/* <div className="space-y-20">
         <p className="font-mono uppercase text-sm font-semibold px-2 py-1 bg-neutral-900 border-2 flex gap-2">
           <DotFilledIcon className="w-4 h-4 animate-pulse my-auto" /> Background
         </p>
 
         <BackgroundSection />
-      </div>
+      </div> */}
 
-      <div className="space-y-20">
+      {/* <div className="space-y-20">
         <p className="font-mono uppercase text-sm font-semibold px-2 py-1 bg-neutral-900 border-2 flex gap-2">
           <DotFilledIcon className="w-4 h-4 animate-pulse my-auto" /> Experience
         </p>
@@ -232,9 +232,9 @@ export default function Home() {
             </HoverCardContent>
           </HoverCard>
         </div>
-      </div>
+      </div> */}
 
-      <div className="space-y-20">
+      {/* <div className="space-y-20">
         <p className="font-mono uppercase text-sm font-semibold px-2 py-1 bg-neutral-900 border-2 flex gap-2">
           <DotFilledIcon className="w-4 h-4 animate-pulse my-auto" />{" "}
           Qualifications
@@ -302,9 +302,9 @@ export default function Home() {
             </HoverCardContent>
           </HoverCard>
         </div>
-      </div>
+      </div> */}
 
-      <div className="space-y-20">
+      {/* <div className="space-y-20">
         <p className="font-mono uppercase text-sm font-semibold px-2 py-1 bg-neutral-900 border-2 flex gap-2">
           <DotFilledIcon className=" w-4 h-4 animate-pulse my-auto" /> Showcase
         </p>
@@ -338,9 +338,9 @@ export default function Home() {
             </HoverCardContent>
           </HoverCard>
         </div>
-      </div>
+      </div> */}
 
-      <div className="space-y-20">
+      {/* <div className="space-y-20">
         <p className="font-mono uppercase text-sm font-semibold px-2 py-1 bg-neutral-900 border-2 flex gap-2">
           <DotFilledIcon className=" w-4 h-4 animate-pulse my-auto" /> Music
         </p>
@@ -373,26 +373,26 @@ export default function Home() {
             </HoverCardContent>
           </HoverCard>
         </div>
-      </div>
+      </div> */}
 
-      <div className="space-y-20">
+      {/* <div className="space-y-20">
         <p className="font-mono uppercase text-sm font-semibold px-2 py-1 bg-neutral-900 border-2 flex gap-2">
           <DotFilledIcon className=" w-4 h-4 animate-pulse my-auto" />{" "}
           Recommended Books
         </p>
 
         <BooksSection />
-      </div>
+      </div> */}
 
-      <div className="space-y-20">
+      {/* <div className="space-y-20">
         <p className="font-mono uppercase text-sm font-semibold px-2 py-1 bg-neutral-900 border-2 flex gap-2">
           <DotFilledIcon className="w-4 h-4 animate-pulse my-auto" /> Uses
         </p>
 
         <UsesSection />
-      </div>
+      </div> */}
 
-      <div className="space-y-20">
+      {/* <div className="space-y-20">
         <p className="font-mono uppercase text-sm font-semibold px-2 py-1 bg-neutral-900 border-2 flex gap-2">
           <DotFilledIcon className=" w-4 h-4 animate-pulse my-auto" /> Currently
         </p>
@@ -417,9 +417,9 @@ export default function Home() {
           </a>
           .
         </p>
-      </div>
+      </div> */}
 
-      <CallToFaith />
+      {/* <CallToFaith /> */}
     </main>
   );
 }

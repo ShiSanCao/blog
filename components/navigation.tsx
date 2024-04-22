@@ -37,12 +37,12 @@ export default function Navigation() {
                       src="/avatar.jpg"
                       width={500}
                       height={500}
-                      alt="Zacchary Puckeridge"
+                      alt="Zeno Cao"
                       priority
                       className="h-8 w-8 rounded-full my-auto aspect-square"
                     />
                     <p className="my-auto font-semibold hover:text-muted-foreground transition-all duration-200">
-                      Zacchary Puckeridge
+                      Zeno Cao
                     </p>
                   </Link>
                 </TooltipTrigger>
@@ -64,7 +64,7 @@ export default function Navigation() {
               >
                 Blog
               </Link>
-              <Link
+              {/* <Link
                 className={`link text-muted-foreground my-auto text-sm hover:text-white transition-all duration-200 ${
                   pathname === "/gallery"
                     ? "text-white underline underline-offset-4"
@@ -73,11 +73,11 @@ export default function Navigation() {
                 href="/gallery"
               >
                 Gallery
-              </Link>
+              </Link> */}
             </div>
           </div>
 
-          <div className="hidden md:flex gap-2">
+          {/* <div className="hidden md:flex gap-2">
             <div className="rounded-full bg-green-500/10 border text-xs text-white font-semibold px-2 my-auto py-0.5 border-green-500 flex gap-2">
               <div className="h-3 w-3 rounded-full animate-pulse bg-green-500/50 relative my-auto flex justify-center items-center">
                 <div className="h-1.5 w-1.5 rounded-full animate-pulse bg-green-500" />
@@ -95,7 +95,7 @@ export default function Navigation() {
             >
               Hire Me
             </Link>
-          </div>
+          </div> */}
         </div>
 
         <div className="flex md:hidden">

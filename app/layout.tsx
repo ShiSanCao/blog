@@ -4,12 +4,12 @@ import Navigation from "@/components/navigation";
 import ScrollToTop from "@/components/scroll-to-top";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/toaster";
-import { UMAMI_SCRIPT_URL, UMAMI_WEBSITE_ID } from "@/lib/umami";
+// import { UMAMI_SCRIPT_URL, UMAMI_WEBSITE_ID } from "@/lib/umami";
 import { cn } from "@/lib/utils";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
 import type { Metadata } from "next";
-import Script from "next/script";
+// import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -49,8 +49,8 @@ export const metadata: Metadata = {
   },
   manifest: "/manifest.json",
   title: {
-    default: "Zacchary Puckeridge",
-    template: "%s | Zacchary Puckeridge",
+    default: "Zeno Cao",
+    template: "%s | Zeno Cao",
   },
   description:
     "Christian IT Administrator working for Rising Sun Pictures. Building better artist experiences by day, Web Developer by night.",
@@ -98,7 +98,7 @@ export default function RootLayout({
           <Footer />
         </ThemeProvider>
       </body>
-      <Script src={UMAMI_SCRIPT_URL} data-website-id={UMAMI_WEBSITE_ID} />
+      {/* <Script src={UMAMI_SCRIPT_URL} data-website-id={UMAMI_WEBSITE_ID} /> */}
     </html>
   );
 }

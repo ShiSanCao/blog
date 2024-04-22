@@ -19,8 +19,8 @@ export default async function Posts() {
         <div className="space-y-4">
           <h1 className="text-4xl font-bold">Blog</h1>
           <p className="text-lg text-muted-foreground max-w-2xl">
-            Welcome to my personal corner of the internet. Here you&apos;ll find
-            posts about faith, technology, and life.
+            {/* Welcome to my personal corner of the internet. Here you&apos;ll find
+            posts about faith, technology, and life. */}
           </p>
         </div>
 
